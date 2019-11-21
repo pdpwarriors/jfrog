@@ -19,8 +19,9 @@ node {
     }
     
     stage('SonarQube Analysis') {
-        rtMaven.run pom: 'jfrog/pom.xml', goals: 'clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=pattabhi -Dsonar.login=df5bb81bae9ba310d6a38135b957227ba6ecd32c '
-     
+        withMaven(jdk: 'JDK-1.8', maven: 'Maven-3.6.1') {
+      sh 'mvn sonar:sonar'
+    }
          
       }
     

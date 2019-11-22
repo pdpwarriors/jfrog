@@ -18,14 +18,14 @@ node {
         rtMaven.run pom: 'pom.xml', goals: 'test'
     }
     
-    stage('SonarQube Analysis') {
-        withMaven(jdk: 'JDK-1.8', maven: 'Maven-3.6.1') {
-            rtMaven.run pom: 'pom.xml'
-      sh 'mvn sonar:sonar'
+   // stage('SonarQube Analysis') {
+       // withMaven(jdk: 'JDK-1.8', maven: 'Maven-3.6.1') {
+         //   rtMaven.run pom: 'pom.xml'
+     // sh 'mvn sonar:sonar'
             
-    }
+   // }
          
-      }
+    //  }
     
     stage ('Artifactory configuration') {
         // Obtain an Artifactory server instance, defined in Jenkins --> Manage..:

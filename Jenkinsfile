@@ -20,7 +20,9 @@ node {
     
     stage('SonarQube Analysis') {
         withMaven(jdk: 'JDK-1.8', maven: 'Maven-3.6.1') {
+            rtMaven.run pom: 'pom.xml'
       sh 'mvn sonar:sonar'
+            
     }
          
       }

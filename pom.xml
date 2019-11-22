@@ -15,7 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sonar.projectKey>fullmavenjfrog</sonar.projectKey>
+        <sonar.projectKey>jfrog</sonar.projectKey>
         <sonar.organization>fullmavenjfrog</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.login>fe21570474488673aa27f31c39ac4b4729e49482</sonar.login>

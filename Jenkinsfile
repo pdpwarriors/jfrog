@@ -19,11 +19,13 @@ node {
     }
     
     stage('SonarQube Analysis') {
-       withMaven(jdk: 'JDK-1.8', maven: 'Maven-3.6.1') {
+         rtMaven.tool = 'Maven-3.6.1' // Tool name from Jenkins configuration
+        rtMaven.run pom: 'pom.xml', goals: 'sonar:sonar'
+     //  withMaven(jdk: 'JDK-1.8', maven: 'Maven-3.6.1') {
          //   rtMaven.run pom: 'pom.xml'
-     sh 'mvn sonar:sonar'
+     //sh 'mvn sonar:sonar'
             
-    }
+   // }
          
      }
     

@@ -36,6 +36,13 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    
+    <properties>
+         <sonar.projectKey>fullmavenjfrog</sonar.projectKey>
+         <sonar.organization>fullmavenjfrog</sonar.organization>
+         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+         <sonar.login>11ff3720663a5f319a876d10bba874293d85b0de</sonar.login>
+   </properties>
 
     <profiles>
         <profile>

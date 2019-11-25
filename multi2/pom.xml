@@ -12,7 +12,7 @@
   <sonar.projectKey>fullmavenjfrog</sonar.projectKey>
   <sonar.organization>fullmavenjfrog</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>11ff3720663a5f319a876d10bba874293d85b0de</sonar.login>
+  <sonar.login>9fdb5f000c253898ac0f53ec946efcc98ed00aa6</sonar.login>
     </properties>
 
     <artifactId>multi2</artifactId>

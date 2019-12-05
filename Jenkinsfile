@@ -1,11 +1,11 @@
 node {
-    def server = Artifactory.server('pdpwarriors.jfrog.io')
+    def server = Artifactory.server('suneha.jfrog.io')
     def buildInfo = Artifactory.newBuildInfo()
     def rtMaven = Artifactory.newMavenBuild()
     
     
     stage ('Code Checkout') {
-        git url: 'https://github.com/Fullmavencode/jfrog.git'
+        git url: 'https://github.com/pdpwarriors/jfrog.git'
     }
  
     stage ('Code Build') {

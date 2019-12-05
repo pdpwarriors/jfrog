@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0          http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jfrog</groupId>
-    <artifactId>Fullmavencode</artifactId>
+    <artifactId>pdpwarriors</artifactId>
     <version>3.7-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Simple Multi Modules Build</name>
@@ -15,11 +15,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sonar.projectKey>fullmavenjfrog</sonar.projectKey>
-  <sonar.organization>fullmavenjfrog</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>9fdb5f000c253898ac0f53ec946efcc98ed00aa6</sonar.login>
-    </properties>
+        </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

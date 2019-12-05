@@ -3,17 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.jfrog</groupId>
-        <artifactId>Fullmavencode</artifactId>
+        <artifactId>pdpwarriors</artifactId>
         <version>3.7-SNAPSHOT</version>
     </parent>
 
     <properties>
         <daversion>${project.parent.version}</daversion>
-  <sonar.projectKey>fullmavenjfrog</sonar.projectKey>
-  <sonar.organization>fullmavenjfrog</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>9fdb5f000c253898ac0f53ec946efcc98ed00aa6</sonar.login>
-    </properties>
+     </properties>
 
     <artifactId>multi2</artifactId>
     <version>3.7-SNAPSHOT</version>

@@ -5,7 +5,7 @@ node {
     
     
     stage ('Code Checkout') {
-      git credentialsId: 'GithubID', url: 'https://github.com/Times-Now/jfrog.git'
+      git credentialsId: 'SureshGit', url: 'https://github.com/pdpwarriors/jfrog.git'
     }
  
     stage ('Code Build') {
